@@ -1,4 +1,3 @@
-/* elisnt-disable */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams, NavLink } from 'react-router-dom';
