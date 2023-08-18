@@ -110,6 +110,7 @@
 .det-cont {
   position: relative;
 }
+
 .arrow-icon {
   border: 1px solid white;
   width: 25px;
@@ -176,6 +177,7 @@
   .navbar {
     padding-right: 2%;
   }
+
   .nav-inner {
     display: flex;
     align-items: center;
@@ -224,6 +226,7 @@
   .det-cont {
     position: relative;
   }
+
   .arrow-icon {
     border: 1px solid white;
     width: 25px;
@@ -237,6 +240,7 @@
     top: 2%;
     cursor: pointer;
   }
+
   .details-cont-inner > div {
     padding-top: 10px;
     padding-bottom: 10px;
