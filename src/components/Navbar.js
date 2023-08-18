@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMicrophone, faCog } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = ({ search, onSearch }) => (
 
@@ -15,6 +17,8 @@ const NavBar = ({ search, onSearch }) => (
       placeholder="Search Country"
       className="search-country"
     />
+    <FontAwesomeIcon icon={faMicrophone} />
+    <FontAwesomeIcon icon={faCog} />
   </div>
 );
 

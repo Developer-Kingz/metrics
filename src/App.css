@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 3%;
 }
 
 .nav-img {
@@ -106,6 +107,23 @@
   font-size: 30px;
 }
 
+.det-cont {
+  position: relative;
+}
+.arrow-icon {
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  cursor: pointer;
+}
+
 .details-cont-inner > div {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -155,6 +173,9 @@
     cursor: pointer;
   }
 
+  .navbar {
+    padding-right: 2%;
+  }
   .nav-inner {
     display: flex;
     align-items: center;
@@ -200,6 +221,22 @@
     width: 100vw;
   }
 
+  .det-cont {
+    position: relative;
+  }
+  .arrow-icon {
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    cursor: pointer;
+  }
   .details-cont-inner > div {
     padding-top: 10px;
     padding-bottom: 10px;
